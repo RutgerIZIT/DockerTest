@@ -2,9 +2,9 @@ version: '2'
 
 services:
   dockertest:
-    image: user/dockertest${TAG}
+    image: rutgerizit/dockertest${TAG}
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80"
+      - "5000"
