@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E4D23A0-84E0-4E42-843F-2C5327BFBC8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93B57160-4EEE-4255-8F3B-74CFA58A828D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DockerTest", "src\DockerTest\DockerTest.xproj", "{7FEEB693-F4A0-4BBC-8305-4E2311FF2D1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEEB693-F4A0-4BBC-8305-4E2311FF2D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEEB693-F4A0-4BBC-8305-4E2311FF2D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEEB693-F4A0-4BBC-8305-4E2311FF2D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEEB693-F4A0-4BBC-8305-4E2311FF2D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FEEB693-F4A0-4BBC-8305-4E2311FF2D1B} = {5E4D23A0-84E0-4E42-843F-2C5327BFBC8B}
+	EndGlobalSection
+EndGlobal
