@@ -2,7 +2,7 @@ version: '2'
 
 services:
   dockertest:
-    image: rutgerizit/dockertest${TAG}
+    image: user/dockertest${TAG}
     build:
       context: .
       dockerfile: Dockerfile
